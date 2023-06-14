@@ -1,0 +1,98 @@
+.header {
+  height: 3.5rem;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  
+}
+
+.topbar {
+  display: flex;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1670px;
+  margin: 0 auto;
+
+  ul {
+    color: #667580;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.875rem;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  li:last-child {
+    margin: 0;
+  }
+
+  svg {
+    margin-right: 3px;
+  }
+}
+
+.profileNav {
+  display: flex;
+  align-items: center;
+
+  input {
+    border: 1px solid #e6e6e4;
+    width: 11rem;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 0 30px 0 12px;
+    background:#f5f8fa url("/src/assets/procurar.svg") no-repeat 9rem center;
+    color: #667581;
+  }
+
+  input::placeholder {
+    font-size: 13px;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+
+  img {
+    height: 3rem;
+    margin: 0 1rem;
+  }
+
+  button {
+    border: none;
+    background: #3bb9e3;
+    border-radius: 1.875rem;
+    color: #fff;
+    font-weight: 700;
+    height: 2.5rem;
+    width: 6.5rem;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.banner {
+  height: 23.75rem;
+  width: 100%;
+  background: #3bb9e3; 
+  color: #fff;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: "Roboto Italic", sans-serif;
+  }
+}
